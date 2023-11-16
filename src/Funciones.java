@@ -22,6 +22,12 @@ public class Funciones {
     public static double sphereVolumen(double r){
         return (4/3)*Math.PI*Math.pow(r,3);
     }
+    /**
+     * Descripcion:Funcion que especificando su moneda convierte una cantidad de dinero a dolares
+     * @param quantity Cantidad de dinero
+     * @param currency Tipo de Moneda:Solo acepta MXN O COP
+     * @return quantity Devuelve la cantidad actualizada en Dolares
+     * */
     public  static double converToDolar(double quantity,String currency){
         //MXN COP
         switch (currency){
